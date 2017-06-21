@@ -19,7 +19,7 @@
 
 === Build
 
-* Optimization de la taille des images via la squash
+* Optimization de la taille des images via docker squash
 * Multistage build (avec plusieurs from)
 ** Permet de récupérer les résultat d'une image intermédiaire
 

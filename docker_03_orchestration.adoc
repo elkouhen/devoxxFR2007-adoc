@@ -17,7 +17,7 @@ Intérêt : mieux gérer la granularité des services pour faciliter le scaling
 
 Conséquences : on doit gérer une multitude de services et la communication entre les services
 
-=== Micro Services &amp; Conteneurs
+=== Micro Services & Conteneurs
 
 Uniformisation du déploiement
 
@@ -35,7 +35,7 @@ Uniformisation du déploiement
 
 * Node : Docker engine membre du cluster (manager ou worker)
 * Service : ensemble de Tasks
-* Task : un conteneur &amp; sa commande
+* Task : un conteneur & sa commande
 
 === Mesos - Marathon (2 projets)
 

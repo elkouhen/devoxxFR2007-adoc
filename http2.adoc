@@ -1,7 +1,7 @@
 == HTTP/2 du point de vue développeur
 (by Sebastien Augereau)
 
-=== Historique :
+=== Historique
 
 * HTTP 1.1 => 97
 * HTTP 2 => 2015 Développé par IETF
@@ -24,7 +24,7 @@ Format Hpack (30 et 80% de compression, suppression des headers redondants via d
 
 Géré par tous les navigateurs sauf Opera mini
 
-= Pourquoi migrer ?
+=== Pourquoi migrer ?
 
 Temps de chargement réduit de 25 à 50 %
 SEO : Google se base sur la latence de la page + SSL

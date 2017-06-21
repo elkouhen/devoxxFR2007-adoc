@@ -1,4 +1,4 @@
-= Byte Buddy : la génération de bytecode facile !
+== Byte Buddy : la génération de bytecode facile !
 (by Nicolas Comet)
 
 Exemple d'utilisation : simplifier la mise en place d'intercepteurs

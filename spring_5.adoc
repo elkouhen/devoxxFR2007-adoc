@@ -34,7 +34,7 @@ Remarque : Pas de driver reactif JDBC
 
 === Functional APIs
 
-* Spring Data, Spring Web (@Controller, RestTemplate) deviennent reactifs &amp; fonctionnels
+* Spring Data, Spring Web (@Controller, RestTemplate) deviennent reactifs & fonctionnels
 * Nouvelle API pour créer le contexte Spring de manière programmatique
 * Nouvelle API pour définir le routage programmatiquement
 
