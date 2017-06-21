@@ -34,8 +34,7 @@ Intérêt des Value Type
 === Projet Amber
 
 * étendre l'inférence de type
-* Classes anonymes
-* lambda : var lambda = x => x + 2
+** Classes anonymes
 * Enums avec Generics
 
 === Grosse Feature de java 10 : Pattern Matching
