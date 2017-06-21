@@ -20,7 +20,7 @@
 
 === API Collections
 
-* Collections immutables :
+* Collections immutables
 ** 12 surcharges de la méthode of pour 0, 1 ou plusieurs éléments
 ** Pas d'interface qui indique l'immutabilité
 

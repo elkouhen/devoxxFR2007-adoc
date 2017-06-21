@@ -25,8 +25,8 @@
 
 === Proposer aux développeurs des moyens pour rester employable
 
-* Leur donner du temps pour faire de la veille
-* Leur permettre de donner des cours (prise de parole, empathie)
+* Temps pour faire de la veille
+* Donner des cours (prise de parole, empathie)
 
 === Environnement de travail du developpeur
 

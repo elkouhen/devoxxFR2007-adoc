@@ -21,10 +21,20 @@
 
 === Différences
 
-* Nouveau langage pour GraphQL - Syntaxe JSON pour Falcor
-* Typage statique pour GraphQL - Typage dynamique pour Falcor
-* N implémentations pour GraphQL - 1 implémentation pour Falcor
-* Bonne adoption pour GraphQL - Faible adoption pour Falcor
+|===
+|GraphQL |Falcor
+
+| Nouveau langage
+| Syntaxe JSON
+
+| Typage statique
+| Typage dynamique
+
+| N implémentations
+| 1 implémentation
+
+| Bonne adoption
+| Faible adoption
 
 === Gagnant
 
