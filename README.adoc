@@ -1,0 +1,29 @@
+= devoxxFR-2017
+
+Restitution Devoxx 2017
+
+include::dev_heureux.adoc[]
+
+include::docker_01_2017.adoc[]
+
+include::docker_02_swarm.adoc[]
+
+include::docker_03_orchestration.adoc[]
+
+include::java_01_java_9.adoc[]
+
+include::java_02_API_collectors.adoc[]
+
+include::java_03_javaslang.adoc[]
+
+include::java_04_pattern_matching.adoc[]
+
+include::spring_5.adoc[]
+
+include::bytebuddy.adoc[]
+
+include::http2.adoc[]
+
+include::graphql_vs_falcor.adoc[]
+
+include::CQRS.adoc[]

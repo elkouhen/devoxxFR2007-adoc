@@ -1,0 +1,59 @@
+== Orchestration de conteneurs : le choix des armes !
+(by Jonathan Raffre , Jean-Louis Rigau , Thomas Auffredou, Yannick lorenzati)
+
+Présentation de Kubernetes, Swarm, Mesos
+
+=== Conteneur ?
+
+* Basé sur noyau linux
+* Permet une isolation de processus
+* Il existe plusieurs implémentations (docker, rkt, etc.)
+
+=> On ne livre plus des applications mais des images
+
+=== Micro Services
+
+Intérêt : mieux gérer la granularité des services pour faciliter le scaling
+
+Conséquences : on doit gérer une multitude de services et la communication entre les services
+
+=== Micro Services &amp; Conteneurs
+
+Uniformisation du déploiement
+
+=> Si trop grand nombre de services, il est nécessaire d'utiliser un orchestrateur de conteneurs
+
+=== Orchestrateur ?
+
+* Gère un pool de ressources (disque, cpu, etc…)
+* Connait la topologie du cluster
+* Connait les applications déployées (où, combien ?)
+* Connaît l'état de santé des services
+* Connaît l'état de santé de la plateforme (perte d'un noeud => redéploiement)
+
+=== Swarm = Swarm mode de docker
+
+* Node : Docker engine membre du cluster (manager ou worker)
+* Service : ensemble de Tasks
+* Task : un conteneur &amp; sa commande
+
+=== Mesos - Marathon (2 projets)
+
+* Mesos Master : connait les ressource et orchestre les taches
+* Mesos Agent : exécute les taches demandées par le master
+* Framework : permet d'interagir avec le master (exemple : marathon qui travaille avec les conteneurs)
+* Task : processus exécuté sur un agent
+
+Supporte d'autres conteneurs (Docker + Mesos containerizer)
+
+=== Kubernetes
+
+* APiserver : expose l'API de kubernetes
+* Kube-controller-manager : contrôle l'état du cluster
+* Kube-proxy : configure l'accès aux service
+* Kubelet : présent sur chaque noeud, exécute les pods
+* Master : ensemble des composants nécessaires à la gestion du cluster
+* Node : exécute les pods
+* Pod :
+** ensemble de conteneurs colocalisés partageant des ressources
+** accessible via une adresse IP dédiée, routable au sein du cluster
