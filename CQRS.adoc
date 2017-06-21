@@ -16,7 +16,10 @@ L'état de l'application est obtenu par aggrégation des événements.
 
 === CQRS : Command Query Responsibility Segregation
 
-Séparation, au sein d’une application, des composants de traitement métier de l’information ("command" / écriture) et de restitution de l’information ("query" / lecture).
+Séparation, au sein d’une application
+
+* des composants de traitement métier de l’information ("command" / écriture)
+* et de restitution de l’information ("query" / lecture).
 
 === Avantages
 

@@ -4,8 +4,8 @@
 === Performances
 
 * Reecriture du ant path matcher
-* Support de zero copy (publication de ressources statiques sans utiliser le CPU)
-* Utilisation des automatiques modules de Jigsaw
+* Support du zero copy (publication de ressources statiques sans utiliser le CPU)
+* Utilisation des modules automatiques de Jigsaw
 
 === JDK 9 - HTTP/2
 
@@ -14,7 +14,7 @@
 
 === Reactive Spring
 
-* More for scalability and stability than for speed
+=> More for scalability and stability than for speed
 
 [source]
 ----

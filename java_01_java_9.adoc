@@ -14,9 +14,9 @@
 === API Process
 
 * Interface ProcessHandle
-** processus courant
-** liste des processus
-** déclenchement de traitements à la fin d'un processus
+** Processus courant
+** Liste des processus
+** Déclenchement de traitements à la fin d'un processus
 
 === API Collections
 
