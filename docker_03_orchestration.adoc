@@ -48,7 +48,7 @@ Supporte d'autres conteneurs (Docker + Mesos containerizer)
 
 === Kubernetes
 
-* APiserver : expose l'API de kubernetes
+* Kube-apiserver : expose l'API de kubernetes
 * Kube-controller-manager : contrôle l'état du cluster
 * Kube-proxy : configure l'accès aux service
 * Kubelet : présent sur chaque noeud, exécute les pods
