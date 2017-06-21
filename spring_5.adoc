@@ -15,6 +15,7 @@
 === Reactive Spring
 
 * More for scalability and stability than for speed
+
 [source]
 ----
 pulic interface XXRepository {
@@ -41,4 +42,16 @@ Remarque : Pas de driver reactif JDBC
 
 Langage supporté par Spring 
 
-=> exemple d'utilisation : custom DSL pour le routage par exemple
+[source]
+----
+{
+    ("/blog" and accept(TEXT_HTML)).nest {
+        GET("/", fooHandler::findAllView)
+        GET("/{slug}", fooHandler::findOneView)
+    }
+    ("/api/blog" and accept(APPLICATION_JSON)).nest {
+        GET("/", this@barHandler::findAll)
+        GET("/{id}", this@barHandler::findOne)
+    }
+}
+----
