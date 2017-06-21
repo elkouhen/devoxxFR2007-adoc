@@ -54,6 +54,4 @@ Supporte d'autres conteneurs (Docker + Mesos containerizer)
 * Kubelet : présent sur chaque noeud, exécute les pods
 * Master : ensemble des composants nécessaires à la gestion du cluster
 * Node : exécute les pods
-* Pod :
-** ensemble de conteneurs colocalisés partageant des ressources
-** accessible via une adresse IP dédiée, routable au sein du cluster
+* Pod : ensemble de conteneurs colocalisés

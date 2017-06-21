@@ -36,6 +36,9 @@
 | Bonne adoption
 | Faible adoption
 
+|===
+
+
 === Gagnant
 
 GraphQL

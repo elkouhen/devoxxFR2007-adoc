@@ -8,8 +8,8 @@
 
 === Différences
 
-HTTP/1 : Clean Text
-HTTP/2 : Binary Frame (moins lisible, plus compacte)
+* HTTP/1 : Clean Text
+* HTTP/2 : Binary Frame (moins lisible, plus compacte)
 
 === Grosse Feature : multiplexing
 
@@ -26,8 +26,8 @@ Géré par tous les navigateurs sauf Opera mini
 
 === Pourquoi migrer ?
 
-Temps de chargement réduit de 25 à 50 %
-SEO : Google se base sur la latence de la page + SSL
+* Temps de chargement réduit de 25 à 50 %
+* SEO : Google se base sur la latence de la page + SSL
 
 === Pratiques obsoletes
 
