@@ -44,7 +44,7 @@ Intérêt des Value Types
 
 === Projet Amber : Exemple de code
 
-[source]
+[source,java]
 ----
 var list = new ArrayList<String>();  // infers ArrayList<String>
 var stream = list.stream();          // infers Stream<String>
@@ -54,7 +54,7 @@ var stream = list.stream();          // infers Stream<String>
 
 Sera intégré au projet Amber
 
-[source]
+[source,java]
 ----
 public class User(String firstName, String lastName, DateTime birthday) { }
 ----
@@ -74,7 +74,7 @@ Implique d'intégrer dans java les hiérachies fermées (typage algébrique)
 
 === JEP 305 : Exemple de code
 
-[source]
+[source,java]
 ----
 int eval(Node n) {
     switch(n) {

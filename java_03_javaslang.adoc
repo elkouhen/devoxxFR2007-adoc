@@ -19,9 +19,9 @@ Renommé Vavr depuis
 * Lazy => Evaluation paresseuse
 * Pattern matching
 
-=== Pattern matching
+=== Exemple de code : Pattern matching
 
-[source]
+[source,java]
 ----
 String s = Match(i).of(
     Case($(1), "one"),

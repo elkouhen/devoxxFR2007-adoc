@@ -17,7 +17,7 @@
 
 => More for scalability and stability than for speed
 
-[source]
+[source,java]
 ----
 pulic interface XXRepository {
   Mono<Person> findOne();
@@ -26,7 +26,7 @@ pulic interface XXRepository {
 }
 ----
 
-[source]
+[source,java]
 ----
 xxxRepository.findById().map(this::handle).subscribe();
 ----
@@ -43,7 +43,7 @@ Remarque : Pas de driver reactif JDBC
 
 Langage supporté par Spring 
 
-[source]
+[source,kotlin]
 ----
 {
     ("/blog" and accept(TEXT_HTML)).nest {

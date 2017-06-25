@@ -3,7 +3,7 @@
 
 Exemple d'utilisation : simplifier la mise en place d'intercepteurs
 
-[source]
+[source,java]
 ----
 Class<?> dynamicType = new ByteBuddy()
  .subclass(Object.class)

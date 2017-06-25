@@ -7,6 +7,8 @@ Consiste à capturer tous les evenements de changement d'état d'une application
 
 L'état de l'application est obtenu par aggrégation des événements.
 
+image::images/eventsourcing.jpg[]
+
 === Avantages
 
 * Audit
@@ -20,6 +22,8 @@ Séparation, au sein d’une application
 
 * des composants de traitement métier de l’information ("command" / écriture)
 * et de restitution de l’information ("query" / lecture).
+
+image::images/CQRSandDDD1.png[]
 
 === Avantages
 

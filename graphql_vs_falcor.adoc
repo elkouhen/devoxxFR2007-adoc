@@ -40,4 +40,4 @@
 
 === Gagnant
 
-GraphQL
+GraphQL !

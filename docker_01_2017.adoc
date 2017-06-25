@@ -10,7 +10,7 @@
 
 * Plus besoin d'installer une VM Linux avec virtualbox
 * Implémentation natif de conteneurs windows (> image de base 4 Go)
-* Integration avec docker cloud
+* Integration avec https://cloud.docker.com/[Docker Cloud]
 
 === Ligne de commande Docker
 
@@ -26,6 +26,6 @@
 
 === RUN
 
-* Déploiement d'une stack docker via compose
+* Déploiement d'une stack docker via docker-compose
 ** docker stack deploy –compose-file=foo
 ** Ajout de contraintes sur le déploiement (noeud avec label)

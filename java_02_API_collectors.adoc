@@ -4,8 +4,8 @@
 === Streams
 
 * Un stream est un pipeline d'opérations
-* Certaines operations sont intermédiaires d'autres terminales
-* Certains opérations terminales sont des collectors
+** Certaines operations sont intermédiaires d'autres terminales
+** Certains opérations terminales sont des collectors
 
 === Rappel - Opération sur les streams
 
@@ -24,7 +24,7 @@
 
 Exemple :
 
-[source]
+[source,java]
 ----
 // API sur les stream
 .count()
@@ -42,7 +42,7 @@ Exemple :
 * Permet d'eviter de mapper systématiquement
 * Pas de grouping by dans les stream
 
-[source]
+[source,java]
 ----
 groupingBy(String::length, Collectors.counting())
 ----
