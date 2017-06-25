@@ -2,13 +2,21 @@
 
 = Devoxx France 2017
 
+== Quelques chiffres ...
+
+* 5-7 avril 2017 à Paris
+* 2700 Participants, 220 Présentations
+* SOFTEAM
+** Exposant, Silver Sponsor
+** 2 Speakers : Thomas Schwender, Cyril Deverson
+
 include::dev_heureux.adoc[10 méthodes pour rendre heureux les développeurs, la 7e va vous étonner !]
 
-include::docker_01_2017.adoc[Docker 2017: Nouveautés et perspectives]
+include::docker_03_orchestration.adoc[Orchestration de conteneurs : le choix des armes !]
 
 include::docker_02_swarm.adoc[Kit d'orchestration avec docker swarm mode]
 
-include::docker_03_orchestration.adoc[Orchestration de conteneurs : le choix des armes !]
+include::docker_01_2017.adoc[Docker 2017: Nouveautés et perspectives]
 
 include::java_01_java_9.adoc[Java 9 modulo les modules]
 

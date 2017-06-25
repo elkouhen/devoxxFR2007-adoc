@@ -2,7 +2,7 @@
 (by Vincent Demeester)
 
 === Swarm mode ?
-Orchestrateur Docker intégré à Docker (depuis la version v1.12.0)
+Orchestrateur Docker intégré (depuis la version v1.12.0)
 
 === Fonctionnalités
 

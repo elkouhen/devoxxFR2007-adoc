@@ -7,7 +7,7 @@ Renommé Vavr depuis
 
 * Pas de tuple
 * Optional pas serializable
-* API completablefuture compliqué
+* API CompletableFuture compliqué
 
 === Apports de Javaslang
 

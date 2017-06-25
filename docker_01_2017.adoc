@@ -22,7 +22,6 @@
 * Optimization de la taille des images via docker squash
 * Multistage build (avec plusieurs from)
 ** Permet de récupérer les résultat d'une image intermédiaire
-** Contrôle des artefacts copiés d'un stage à un autre
 
 === RUN
 

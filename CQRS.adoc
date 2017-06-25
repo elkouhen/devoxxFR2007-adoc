@@ -7,6 +7,8 @@ Consiste à capturer tous les evenements de changement d'état d'une application
 
 L'état de l'application est obtenu par aggrégation des événements.
 
+=== Event Sourcing
+
 image::images/eventsourcing.jpg[]
 
 === Avantages
@@ -22,6 +24,8 @@ Séparation, au sein d’une application
 
 * des composants de traitement métier de l’information ("command" / écriture)
 * et de restitution de l’information ("query" / lecture).
+
+=== CQRS : Command Query Responsibility Segregation
 
 image::images/CQRSandDDD1.png[]
 

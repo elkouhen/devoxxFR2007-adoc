@@ -15,12 +15,12 @@
 
 === Reactive Spring
 
-=> More for scalability and stability than for speed
+
 
 [source,java]
 ----
 pulic interface XXRepository {
-  Mono<Person> findOne();
+  Mono<Person> findById(int id);
 
   Flux<Person> findAll()
 }
@@ -30,6 +30,8 @@ pulic interface XXRepository {
 ----
 xxxRepository.findById().map(this::handle).subscribe();
 ----
+
+=> More for scalability and stability than for speed
 
 Remarque : Pas de driver reactif JDBC
 

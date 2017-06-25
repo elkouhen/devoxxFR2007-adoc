@@ -16,8 +16,7 @@ Release Début Septembre
 === API Process
 
 * Interface ProcessHandle
-** Processus courant
-** Liste des processus
+** Processus courant, Liste des processus
 ** Déclenchement de traitements à la fin d'un processus
 
 === API Collections
@@ -26,7 +25,9 @@ Release Début Septembre
 ** 12 surcharges de la méthode of pour 0, 1 ou plusieurs éléments
 ** :-) Pas d'interface qui indique l'immutabilité
 
-=== API Stream => ajout de méthodes
+=== API Stream
+
+Ajout de méthodes
 
 * takeWhile(Predicate)
 * dropWhile(Predicate)
@@ -36,7 +37,7 @@ Release Début Septembre
 === Outils JDK
 
 * Plus de distinction JDK/JRE (organisation des repertoires, avant une JDK contenant une JRE)
-* Uniformisation des paramètres des CLI ( GNU style) => Las anciennes options restent
+* Uniformisation des paramètres des CLI ( GNU style) => Les anciennes options restent
 * Un compilateur ne supporte que la version courante de java et les 3 précédentes (support 8, 7 et 6 avec warnings)
 * Gestion de Multi Release JAR Files (un jar par version)
 ** La version courante à la racine
