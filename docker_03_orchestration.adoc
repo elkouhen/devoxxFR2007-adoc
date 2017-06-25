@@ -41,7 +41,7 @@ Conséquences : on doit gérer une multitude de services et la communication ent
 * Framework : permet d'interagir avec le master (exemple : marathon qui travaille avec les conteneurs)
 * Task : processus exécuté sur un agent
 
-Supporte d'autres conteneurs (Docker + Mesos containerizer)
+=> Supporte d'autres conteneurs (Docker + Mesos containerizer)
 
 === Architecture
 

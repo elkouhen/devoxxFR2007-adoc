@@ -1,3 +1,5 @@
+:revealjs_theme: white
+
 = Devoxx France 2017
 
 include::dev_heureux.adoc[10 méthodes pour rendre heureux les développeurs, la 7e va vous étonner !]

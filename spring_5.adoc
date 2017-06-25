@@ -4,7 +4,8 @@
 === Performances
 
 * Reecriture du ant path matcher
-* Support du zero copy (publication de ressources statiques sans utiliser le CPU)
+* Support du zero copy
+** Publication de ressources statiques sans utiliser le CPU
 * Utilisation des modules automatiques de Jigsaw
 
 === JDK 9 - HTTP/2

@@ -50,9 +50,9 @@ var list = new ArrayList<String>();  // infers ArrayList<String>
 var stream = list.stream();          // infers Stream<String>
 ----
 
-=== Projet Amber : Exemple de code
+=== Data Class
 
-Pas encore intégré au projet
+Sera intégré au projet Amber
 
 [source]
 ----

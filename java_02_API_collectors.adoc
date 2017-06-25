@@ -26,10 +26,14 @@ Exemple :
 
 [source]
 ----
+// API sur les stream
 .count()
+// API collector équivalent
 .collect(Collectors.counting())
 
+// API sur les stream
 .min(Comparator.naturalOrder())
+// API collector équivalent
 .collect(Collectors.minBy(Comparator.naturalOrder())
 ----
 
