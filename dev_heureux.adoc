@@ -1,7 +1,7 @@
 == 10 méthodes pour rendre heureux les développeurs, la 7e va vous étonner !
 (by Cyril Lakech , Romain Linsolas)
 
-=== Pratiques / Entretien de Recrutement
+=== Entretien de Recrutement / Bonnes Pratiques
 
 * Partage de vision
 * Présenter le cadre de travail
@@ -9,7 +9,7 @@
 * Parlons du code : pratiques de développement ?
 * Mettre en avant les Soft skills
 
-=== Pratiques / Entretien de Recrutement
+=== Entretien de Recrutement / Bonnes Pratiques
 
 * QCM
 * Utilisation de Plateformes de test

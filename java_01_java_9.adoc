@@ -1,13 +1,15 @@
 == Java 9 modulo les modules
 (by Jean-Michel Doudoux)
 
+Release Début Septembre
+
 === Changements mineurs
 
 * Simplification du try with resources try (fis) { }
 * Opérateur diamant sur classes anonymes
 * Méthodes privées dans les interfaces
 * Fini l'identifiant _ (underscore)
-* Sera utilisé dans les lambda java 10
+** Sera utilisé dans les lambda java 10
 * API StackWalking : parcourir et filtrer info des stacktraces (interface StackWalker.StackFrame)
 * API Flow => mise en oeuvre des reactive streams : publication/souscription asynchrone
 
@@ -22,7 +24,7 @@
 
 * Collections immutables
 ** 12 surcharges de la méthode of pour 0, 1 ou plusieurs éléments
-** Pas d'interface qui indique l'immutabilité
+** :-) Pas d'interface qui indique l'immutabilité
 
 === API Stream => ajout de méthodes
 
@@ -35,7 +37,7 @@
 
 * Plus de distinction JDK/JRE (organisation des repertoires, avant une JDK contenant une JRE)
 * Uniformisation des paramètres des CLI ( GNU style) => Las anciennes options restent
-* Un compilateur ne supporte que la version courante de java et les 3 précédentes (support 7, 8 et 6 avec warnings)
+* Un compilateur ne supporte que la version courante de java et les 3 précédentes (support 8, 7 et 6 avec warnings)
 * Gestion de Multi Release JAR Files (un jar par version)
 ** La version courante à la racine
 ** Les autres dans META-INFO/versions/N
@@ -52,9 +54,7 @@
 
 * Client HTTP 2.0
 
-=== Changements Reportées :
+=== Changements Reportées
 
 * API JSON
 * API Money
-
-Release Début Septembre

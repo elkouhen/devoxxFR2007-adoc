@@ -4,15 +4,19 @@
 === Fonctionnalités
 
 * Modele de service declaratif
-* Docker swarm gère la reconciliation
+** Docker swarm gère la reconciliation
 * Service Discovery
 * Load balancing
 * Rolling Updates
 
-=== Vocabulaire :
+=== Vocabulaire
 
 * Cluster : au moins un noeud
 * Node : instance docker engine (worker ou master)
-* Service : Groupe de Taks
+* Service : Groupe de Tasks
 * Task : 1 conteneur
 * Stack : groupe de services
+
+=== Exemple
+
+image::images/services-diagram.png[]

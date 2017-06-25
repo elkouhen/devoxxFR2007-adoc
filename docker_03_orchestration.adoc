@@ -17,25 +17,22 @@ Intérêt : mieux gérer la granularité des services pour faciliter le scaling
 
 Conséquences : on doit gérer une multitude de services et la communication entre les services
 
-=== Micro Services & Conteneurs
-
-Uniformisation du déploiement
-
 => Si trop grand nombre de services, il est nécessaire d'utiliser un orchestrateur de conteneurs
 
-=== Orchestrateur ?
+=== Responsabilités de l'Orchestrateur
 
 * Gère un pool de ressources (disque, cpu, etc…)
 * Connait la topologie du cluster
 * Connait les applications déployées (où, combien ?)
 * Connaît l'état de santé des services
-* Connaît l'état de santé de la plateforme (perte d'un noeud => redéploiement)
+* Connaît l'état de santé de la plateforme
+** Perte d'un noeud => redéploiement des applications
 
 === Swarm = Swarm mode de docker
 
 * Node : Docker engine membre du cluster (manager ou worker)
 * Service : ensemble de Tasks
-* Task : un conteneur & sa commande
+* Task : un conteneur
 
 === Mesos - Marathon (2 projets)
 
@@ -46,6 +43,10 @@ Uniformisation du déploiement
 
 Supporte d'autres conteneurs (Docker + Mesos containerizer)
 
+=== Architecture
+
+image::images/mesos-architecture.png[]
+
 === Kubernetes
 
 * Kube-apiserver : expose l'API de kubernetes
@@ -55,3 +56,7 @@ Supporte d'autres conteneurs (Docker + Mesos containerizer)
 * Master : ensemble des composants nécessaires à la gestion du cluster
 * Node : exécute les pods
 * Pod : ensemble de conteneurs colocalisés
+
+=== Architecture
+
+image::images/kubernetes-architecture.png[]

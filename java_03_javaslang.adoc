@@ -1,7 +1,7 @@
 == Java 8 c'est bien, Javaslang c'est mieux ;-)
 (by Mathieu ANCELIN)
 
-Renommé vavr
+Renommé Vavr depuis
 
 === Défauts de java 8
 
@@ -14,7 +14,18 @@ Renommé vavr
 * Fonctions (0 à 8 paramétres)
 * Tuples (0 .. 8)
 * Values => objet utilisable comme une collection
-* Try => gestion des exceptions
-* Either
-* Lazy => evaluation paresseuse
+* Try => Monad de gestion des exceptions
+* Either => Objet avec deux valeurs possibles
+* Lazy => Evaluation paresseuse
 * Pattern matching
+
+=== Pattern matching
+
+[source]
+----
+String s = Match(i).of(
+    Case($(1), "one"),
+    Case($(2), "two"),
+    Case($(), "?")
+);
+----
