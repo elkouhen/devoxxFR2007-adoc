@@ -1,6 +1,9 @@
 == Kit d'orchestration avec docker swarm mode
 (by Vincent Demeester)
 
+=== Swarm mode ?
+Orchestrateur Docker intégré à Docker (depuis la version v1.12.0)
+
 === Fonctionnalités
 
 * Modele de service declaratif
@@ -15,7 +18,7 @@
 * Node : instance docker engine (worker ou master)
 * Service : Groupe de Tasks
 * Task : 1 conteneur
-* Stack : groupe de services
+* Stack : 1 groupe de services
 
 === Exemple
 

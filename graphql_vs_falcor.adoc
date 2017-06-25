@@ -8,7 +8,7 @@
 * Langage de description des requêtes
 * Lib serveur
 
-=== Falcor :
+=== Falcor
 
 * Syntaxe JSON
 * Développé par netflix

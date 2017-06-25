@@ -1,4 +1,4 @@
-== Docker 2017: Nouveautés et perspectives
+== Docker 2017 : Nouveautés et perspectives
 (by Vincent Demeester)
 
 === Plusieurs editions
