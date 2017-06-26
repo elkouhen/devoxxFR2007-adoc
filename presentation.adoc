@@ -10,13 +10,25 @@
 ** Exposant, Silver Sponsor
 ** 2 Speakers : Thomas Schwender, Cyril Deverson
 
+== Plan
+
+* Méthodes de travail
+* Docker
+* Java
+* API REST
+* Architecture
+
+== Méthodes de travail
+
 include::dev_heureux.adoc[10 méthodes pour rendre heureux les développeurs, la 7e va vous étonner !]
+
+== Docker
 
 include::docker_03_orchestration.adoc[Orchestration de conteneurs : le choix des armes !]
 
-include::docker_02_swarm.adoc[Kit d'orchestration avec docker swarm mode]
-
 include::docker_01_2017.adoc[Docker 2017: Nouveautés et perspectives]
+
+== Java
 
 include::java_01_java_9.adoc[Java 9 modulo les modules]
 
@@ -28,10 +40,14 @@ include::java_04_pattern_matching.adoc[Pattern Matching en Java (10 ?)]
 
 include::spring_5.adoc[Spring Framework 5.0]
 
-include::bytebuddy.adoc[Byte Buddy : la génération de bytecode facile !]
+== API Rest
 
 include::http2.adoc[HTTP/2 du point de vue développeur]
 
 include::graphql_vs_falcor.adoc[GraphQL vs Falcor]
 
 include::CQRS.adoc[CQRS/EventSourcing par la pratique]
+
+== Pêle-Mêle
+
+include::bytebuddy.adoc[Byte Buddy : la génération de bytecode facile !]

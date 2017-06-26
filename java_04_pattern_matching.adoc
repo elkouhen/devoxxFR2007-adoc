@@ -27,14 +27,14 @@ Intérêt des Value Types
 
 === Projet Panama
 
-* Site Web : http://openjdk.java.net/projects/valhalla/
+* Site Web : http://openjdk.java.net/projects/panama/
 * Features
 ** Appel de C a partir de java
 ** Accéder aux opérateurs SIMD (exemple : int sur 512 bits)
 
 === Projet Amber
 
-* Site Web : http://openjdk.java.net/projects/valhalla/
+* Site Web : http://openjdk.java.net/projects/amber/
 * Features
 ** Extension des lambda
 *** Gestion des underscores (paramètres non nommés)
@@ -56,7 +56,9 @@ Sera intégré au projet Amber
 
 [source,java]
 ----
-public class User(String firstName, String lastName, DateTime birthday) { }
+public class User(String firstName,
+    String lastName,
+    DateTime birthday) { }
 ----
 
 === Java 10
