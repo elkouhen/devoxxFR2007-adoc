@@ -28,7 +28,7 @@ pulic interface XXRepository {
 
 [source,java]
 ----
-xxxRepository.findById().map(this::handle).subscribe();
+xxxRepository.findById(1).map(this::handle).subscribe();
 ----
 
 => More for scalability and stability than for speed

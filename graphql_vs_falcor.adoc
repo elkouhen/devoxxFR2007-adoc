@@ -8,6 +8,21 @@
 * Langage de description des requêtes
 * Lib serveur
 
+=== Exemple
+
+[source,java]
+----
+{
+  user(id: 1) {
+    name
+    age
+    friends {
+      name
+    }
+  }
+}
+----
+
 === Falcor
 
 * Syntaxe JSON
