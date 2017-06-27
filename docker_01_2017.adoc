@@ -3,10 +3,10 @@
 
 === Plusieurs editions
 
-* Desktop : mac, windows
+* Desktop : Mac, Windows
 * Cloud : AWS, Azure, …
 
-=== Docker 4 desktop (Docker4win)
+=== Docker For Windows
 
 * Plus besoin d'installer une VM Linux avec virtualbox
 * Implémentation natif de conteneurs windows (> image de base 4 Go)
