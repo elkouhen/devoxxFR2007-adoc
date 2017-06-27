@@ -17,7 +17,6 @@
 
 * Langage de requetage
 * Développé par Facebook
-* Langage de description des requêtes
 * Lib serveur
 
 
