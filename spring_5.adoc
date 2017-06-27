@@ -13,8 +13,13 @@
 * Support de HTTP/2 en version "beta"
 * Support de Servlet 4 en cours
 
-=== Reactive Spring
+=== Functional APIs
 
+* Spring Data, Spring Web (@Controller, RestTemplate) deviennent reactifs & fonctionnels
+* Nouvelle API pour créer le contexte Spring de manière programmatique
+* Nouvelle API pour définir le routage programmatiquement
+
+=== DAO Reactif
 
 
 [source,java]
@@ -35,13 +40,29 @@ xxxRepository.findById(1).map(this::handle).subscribe();
 
 Remarque : Pas de driver reactif JDBC
 
-=== Functional APIs
+=== Construction "fonctionnelle" du context
 
-* Spring Data, Spring Web (@Controller, RestTemplate) deviennent reactifs & fonctionnels
-* Nouvelle API pour créer le contexte Spring de manière programmatique
-* Nouvelle API pour définir le routage programmatiquement
+[source,java]
+----
+FunctionalWebApplication
+		.scan("com.mypackage")
+		.registerBean(BarBean.class)
+		.registerBean(FooBean.class, (context) -> new FooBean(context.getBean("barBean")))
+----
 
-=== Kotlin
+=== Router Java
+
+[source,kotlin]
+----
+
+RouterFunction<?> route =
+    route(path("/hello-world"),
+        request -> Response.ok().body(fromObject("Hello World")))
+    .and(route(path("/the-answer"),
+        request -> Response.ok().body(fromObject("42"))));
+----
+
+=== Router Kotlin
 
 Langage supporté par Spring 
 
