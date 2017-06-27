@@ -18,14 +18,9 @@ Exemple :
 [source,java]
 ----
 // API sur les stream
-.count()
+givenList.stream().count()
 // API collector équivalent
-.collect(Collectors.counting())
-
-// API sur les stream
-.min(Comparator.naturalOrder())
-// API collector équivalent
-.collect(Collectors.minBy(Comparator.naturalOrder())
+givenList.stream().collect(Collectors.counting())
 ----
 
 === Collectors
@@ -35,5 +30,6 @@ Exemple :
 
 [source,java]
 ----
-groupingBy(String::length, Collectors.counting())
+Map<Integer, Set<String>> result = givenList.stream()
+  .collect(groupingBy(String::length, toSet()));
 ----

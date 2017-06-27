@@ -16,9 +16,6 @@
   user(id: 1) {
     name
     age
-    friends {
-      name
-    }
   }
 }
 ----
@@ -28,6 +25,15 @@
 * Syntaxe JSON
 * Développé par netflix
 * Lib client + serveur
+
+=== Exemple
+
+[source,java]
+----
+
+users[1]['name','age']
+
+----
 
 === Similarités
 
