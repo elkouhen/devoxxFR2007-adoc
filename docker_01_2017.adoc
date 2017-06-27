@@ -15,7 +15,11 @@
 === Ligne de commande Docker
 
 * Restruction des options de la ligne de commande
-** exemple : "docker ps" devient "docker container ls"
+
+Exemples :
+
+* "docker ps" devient "docker container ls"
+* "docker images" devient "docker image ls"
 
 === BUILD
 
