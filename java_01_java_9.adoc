@@ -48,7 +48,6 @@ Ajout de méthodes
 * JShell : interpreteur ligne de commande
 * Compact Strings => reduction de l'empreinte mémoire
 * Javadoc : HTML 5 + Moteur de Recherche
-* Implémentation de SHA-3
 * Fichiers de propriétés UTF-8
 
 === Modules incubés

@@ -37,7 +37,7 @@ Conséquences : on doit gérer une multitude de services et la communication ent
 
 === Mesos - Marathon (2 projets)
 
-* Mesos Master : connait les ressource et orchestre les taches
+* Mesos Master : connait les ressources et orchestre les taches
 * Mesos Agent : exécute les taches demandées par le master
 * Framework : permet d'interagir avec le master (exemple : marathon qui travaille avec les conteneurs)
 * Task : processus exécuté sur un agent

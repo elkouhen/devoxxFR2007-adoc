@@ -50,17 +50,6 @@ var list = new ArrayList<String>();  // infers ArrayList<String>
 var stream = list.stream();          // infers Stream<String>
 ----
 
-=== Data Class
-
-Sera intégré au projet Amber
-
-[source,java]
-----
-public class User(String firstName,
-    String lastName,
-    DateTime birthday) { }
-----
-
 === Java 10
 
 * Roadmap : Intègrer les fonctionnalités des projets Panama et Valhalla

@@ -6,6 +6,9 @@
 * Reecriture du ant path matcher
 * Support du zero copy
 ** Publication de ressources statiques sans utiliser le CPU
+
+=== JDK 9
+
 * Utilisation des modules automatiques de Jigsaw
 
 === JDK 9 - HTTP/2
@@ -16,7 +19,7 @@
 === Functional APIs
 
 * Spring Data, Spring Web (@Controller, RestTemplate) deviennent reactifs & fonctionnels
-* Nouvelle API pour créer le contexte Spring de manière programmatique
+* Nouvelle API pour créer le contexte Spring programmatiquement
 * Nouvelle API pour définir le routage programmatiquement
 
 === DAO Reactif

@@ -1,14 +1,7 @@
 == GraphQL vs Falcor
 (by Antoine Cellier, Hugo Wood)
 
-=== Graphql
-
-* Langage de requetage
-* Développé par Facebook
-* Langage de description des requêtes
-* Lib serveur
-
-=== Exemple
+=== Graphql Exemple
 
 [source,java]
 ----
@@ -20,13 +13,15 @@
 }
 ----
 
-=== Falcor
+=== Graphql
 
-* Syntaxe JSON
-* Développé par netflix
-* Lib client + serveur
+* Langage de requetage
+* Développé par Facebook
+* Langage de description des requêtes
+* Lib serveur
 
-=== Exemple
+
+=== Falcor Exemple
 
 [source,java]
 ----
@@ -34,6 +29,14 @@
 users[1]['name','age']
 
 ----
+
+=== Falcor
+
+* Syntaxe JSON
+* Développé par netflix
+* Lib client + serveur
+
+
 
 === Similarités
 

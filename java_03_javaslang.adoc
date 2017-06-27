@@ -6,8 +6,7 @@ Renommé Vavr depuis
 === Défauts de java 8
 
 * Pas de tuple
-* Optional pas serializable
-* API CompletableFuture compliqué
+* Gestion des exceptions dans les lambda
 
 === Apports de Javaslang
 
